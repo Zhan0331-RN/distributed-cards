@@ -37,7 +37,7 @@ p {
   font-family: serif;
   text-align: left;
   padding: .5em 1em .2em;
-  font-size: .7rem;
+  font-size: 1.5rem;
 }
 
 ol {
@@ -55,6 +55,7 @@ ol > li {
   display: flex;
   flex-direction: column;
   background-color: #ede3db;
+  justify-content: space-between;
 }
 
 ol li {
@@ -67,7 +68,7 @@ ol li {
 
 li a {
   font-family: serif;
-  font-size: .7rem;
+  font-size: 1.5rem;
   color: #fff;
   margin-left: 1em;
 }
