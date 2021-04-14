@@ -74,4 +74,6 @@ ol li {
 li a {
   font-family: serif;
   font-size: .7rem;
+  border-radius: 8px;
+  color: #623b0c;
 }
