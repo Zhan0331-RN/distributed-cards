@@ -3,6 +3,8 @@ html {
   line-height: 1.5;
   font-family: "Denk One", sans-serif;
   text-align: left;
+  margin: 1.5rem;
+  padding: .5em .75em .6em 1rem;
 }
 
 *,
@@ -18,8 +20,9 @@ body {
 
 h1 {
   color: #623b0c;
-  text-align: left;
+  margin: 0 0 1.5rem;
 }
+
 main {
   margin: 1rem;
 }
@@ -37,6 +40,7 @@ p {
   text-align: left;
   padding: .5em 1em .2em;
   font-size: .7rem;
+  justify-content: flex-start;
 }
 
 ol {
@@ -53,7 +57,6 @@ ol > li {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  align-items: left;
   background-color: #ede3db;
 }
 
