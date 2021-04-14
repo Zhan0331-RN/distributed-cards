@@ -22,7 +22,6 @@ h1 {
 }
 main {
   margin: 1rem;
-  color: #ede3db;
 }
 
 h2 {
@@ -49,12 +48,12 @@ ol {
 }
 
 ol > li {
-  border: 3px solid #623b0c;
+  border: 1px solid #623b0c;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  align-items: left;
+  background-color: #ede3db;
 }
 
 h2 + img {
@@ -67,8 +66,7 @@ ol li {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: left;
   align-self: stretch;
 }
 
@@ -78,7 +76,6 @@ li a {
   color: #623b0c;
 }
 
-img {
-  size: 100%;
-  margin-left: 0;
+h2 + img {
+  margin: 1em;
 }
