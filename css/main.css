@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: "Denk One", sans-serif;
+  text-align: left;
 }
 
 *,
@@ -12,28 +13,29 @@ html {
 
 body {
   margin: 0;
-  corner-radii: 8px;
+  background-color: #f5f2f0;
 }
 
 h1 {
   color: #623b0c;
+  text-align: left;
 }
 main {
   margin: 1rem;
+  color: #ede3db;
 }
 
 h2 {
-  margin: 0;
-  padding: 0;
   color: #623b0c;
   font-size: 1rem;
   text-align: left;
 }
 
 p {
+  color: #000000;
   font-family: serif;
   text-align: left;
-  padding: .5em 1.5em .2em;
+  padding: .5em 1em .2em;
   font-size: .7rem;
 }
 
@@ -48,8 +50,7 @@ ol {
 
 ol > li {
   border: 3px solid #623b0c;
-  padding: 1rem;
-  border-radius: 6px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -58,7 +59,7 @@ ol > li {
 
 h2 + img {
   max-width: 15em;
-  margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 ol li {
@@ -74,6 +75,10 @@ ol li {
 li a {
   font-family: serif;
   font-size: .7rem;
-  border-radius: 8px;
   color: #623b0c;
+}
+
+img {
+  size: 100%;
+  margin-left: 0;
 }
