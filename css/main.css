@@ -17,38 +17,37 @@ body {
   margin: 0;
 }
 
-h1 {
-  margin-top: .3em;
-  margin-bottom: .75em;
-  color: #623b0c;
-  font-family: "Denk One", sans-serif;
+img {
+  width: 100%;
 }
 
 main {
-  padding: .5em .75em .6em 1rem;
+  padding: 0 1rem;
+}
+
+h1 {
+  color: #623b0c;
+  font-family: "Denk One", sans-serif;
+  margin: 1rem 0 1.4rem;
 }
 
 h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
-  font-size: 1.5rem;
-  margin-left: .75em;
-  margin-top: .65em;
-  margin-bottom: 1em;
+  margin: 0 0 1.5rem;
 }
 
 p {
   color: #000;
-  font-family: serif;
   text-align: left;
-  font-size: 1rem;
-  margin-left: 1em;
+  margin: 1.5rem 0;
 }
 
 ol {
   list-style-type: none;
   padding: 0;
   margin: 0;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -57,39 +56,19 @@ ol {
 ol > li {
   border: 2px solid #623b0c;
   border-radius: 8px;
+  padding: 1rem;
+
   display: flex;
   flex-direction: column;
   background-color: #ede3db;
   justify-content: space-between;
 }
 
-ol li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-self: stretch;
-}
-
-li a {
-  font-family: serif;
-  font-size: 1rem;
-  color: #fff;
-  margin-left: 1em;
-}
-
-img {
-  width: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
 a {
-  border-radius: 6px;
+  border-radius: 8px;
   background-color: #623b0c;
+  color: #fff;
   text-decoration: none;
-  font-family: georgia, serif;
+  border: 2px;
   padding: .5em 1.5em .7em 1em;
-  margin-bottom: 1em;
-  margin-right: 1em;
 }
